@@ -6,7 +6,7 @@
 .element{
     position: absolute;
     font-size: 50px;
-
+    padding-left: 30px;
     
 }
 .t1{
@@ -19,19 +19,20 @@
 .t2{
     gap: 120px;
     display: flex;
-    padding-top: 5%;
+    padding-top: 2%;
     flex-direction: row;
     font-size: large;
     width: 136.8%;
+    line-height: 60px;
 }
 .t2 p i{
     padding-right: 10px;
     color: #e6ff00;
 }
 .text{
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    padding-top: 5%;
     padding-left: 10%;
 }
 .element::after {
@@ -47,12 +48,36 @@
     66%  { content: "Manager"; }
     100% { content: "Developer"; }
 }
+
+.slidermain{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    height: 350px;
+    animation: fadeSlider 30s linear infinite;
+}
+.slider{
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+.slider img{
+    width: 250px;
+}
+
+
+@keyframes fadeSlider {
+ 0% { left: 100%; }
+  100% { left: -10%; }
+}
 body{
 
     background-image: url('https://html.tavonline.co/hagen/classic-version/images/bg.jpg');
     background-position: center;
     background-size: 100%;
-    overflow: hidden;
     height: 100vh;
     background-attachment: fix;
 }
@@ -72,7 +97,6 @@ body{
     margin-top: 100px;
     position: absolute;
     top:-1000%;
-    right: -100%;
     opacity: 80%;
     line-height: 40px;
     height: auto;
@@ -88,7 +112,11 @@ body{
     text-decoration: none;
     color: aliceblue;
 }
-
+.mainslider{
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
 .menuicon i{
     cursor: pointer;
     position: fixed;
@@ -103,7 +131,6 @@ body{
 
 .main {
     padding-top: 100px;
-    overflow: hidden;
     position: relative;
     width: 85%;
     margin: auto;    
@@ -111,8 +138,9 @@ body{
     align-items: center;     
     justify-content: center;
     background-color: rgb(1, 29, 3);
-    opacity: 80%;
-    border-radius: 20px;
+    opacity: 90%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 
 .menuicon:hover .menu{
@@ -120,4 +148,83 @@ body{
     top: 70px;
     transition: ease-in-out 0.5s;
 }
+.next{
+    overflow: hidden;
+    padding-left: 70px;
+    padding-right: 10px;
+    height: 30%;
+    padding-bottom: 50px;
+    width:90%
+}
+.next p{
+    text-align:left;
+    font-size: 1.3rem;
+    line-height: 180%;
+}
+.what {
+    padding-left: 70px;
+    padding-bottom: 100px;
 
+}
+.what h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline #e6ff00;
+}
+
+.stack1{
+    align-items: center;
+    padding-left: 9%;
+    padding-top: 5%;
+    gap: 20%;
+    display: flex;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.stack11{
+    padding-left:82px ;
+    display: flex;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.stack11 p i{
+    font-size: 3rem;
+    color: white;
+}
+.stack1 p i{
+    font-size: 3rem;
+    padding-right: 30px;
+    color: white;
+}
+.what2{
+    padding-left: 80px;
+    padding-bottom: 150px;
+    border-bottom: 1px whitesmoke solid;
+    display: flex;    
+}
+.what2 i{
+    font-size: 2.5rem;
+    color: #e6ff00;
+}
+.stac{
+    height: 206.8px;
+    width: 311px;
+    padding-left: 30px;
+}
+.stac p{
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.candit{
+    display: flex;
+    padding-top:20px ;
+}
+.candit p{
+    padding-left: 30px;
+    line-height: 20px;
+}
+.candit img{
+    height: 50px;
+    border-radius: 500px;
+}
