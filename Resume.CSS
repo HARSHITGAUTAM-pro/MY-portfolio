@@ -1,0 +1,182 @@
+body{
+    background-image: url('https://html.tavonline.co/hagen/classic-version/images/bg.jpg');
+    background-position: center;
+    background-size: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.main{
+    padding-top: 40px;
+    padding-left: 5%;
+    position: relative;
+    width: 85%;
+    margin: auto;    
+    margin-top: 5%;       
+    align-items: center;     
+    justify-content: center;
+    background-color: rgb(1, 29, 3);
+    opacity: 90%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    
+}
+
+.main h1{
+    text-decoration: underline 3px #e6ff00;
+    color:white;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+.menu{
+    cursor: pointer;
+    margin-top: 100px;
+    position: fixed;
+    top:05%;
+    right: 4%;
+    opacity: 80%;
+    line-height: 40px;
+    height: auto;
+    align-items: center;
+    justify-items: center;
+    width: 15vw;
+    display: none;
+}
+.menu ul{
+    align-items: center;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.mainslider{
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+.menuicon i{
+    z-index: 1000;
+    cursor: pointer;
+    position: fixed;
+    right: 10%;
+    top: 12%;
+    background-color: #e6ff00;
+    color: black;
+    font-size: 1.2rem;
+    padding: 17px;
+    border-radius: 50%;
+}
+.menuicon:hover .menu{
+    display: list-item;
+    transition: ease-in-out 0.5s;
+}
+.verticalline{
+    border-left: 1px solid #e6ff00;
+    height: auto;
+    justify-self: center;
+    
+}
+.work{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    background-color: white;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+    padding-top:auto;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+}
+.work h6{
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:100;
+
+}
+.box1{
+    margin-top: 100px;
+    margin-right: 60px;
+    height: 200px;
+    width: 480px;
+    background-color: rgb(40, 53, 41);
+    opacity: 80%;
+    padding: 40px;
+    border-radius: 30px;
+    padding-bottom: 50px;
+}
+.box1 p1{
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #e6ff00;
+}
+.box1 h5{
+    font-size: 1.5rem;
+    color:white
+}
+.box1 p{
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box11{
+    margin-top: 280px;
+    margin-right: 60px;
+    height: 200px;
+    width: 480px;
+    background-color: rgb(40, 53, 41);
+    opacity: 80%;
+    padding: 40px;
+    border-radius: 30px;
+    padding-bottom: 50px;
+}
+.box11 h5{
+    font-size: 1.5rem;
+    color:white
+}
+.box11 p1{
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #e6ff00;
+}
+.box11 p{
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.first{
+    display: flex;
+}
+.box2{
+    margin-top: 360px;
+    margin-left: 60px;
+    height: 200px;
+    width: 480px;
+    background-color: rgb(40, 53, 41);
+    opacity: 80%;
+    padding: 40px;
+    border-radius: 30px;
+    padding-bottom: 50px;
+}
+
+.box2 p1{
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #e6ff00;
+}
+.box2 h5{
+    font-size: 1.5rem;
+    color:white
+}
+.box2 p{
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
