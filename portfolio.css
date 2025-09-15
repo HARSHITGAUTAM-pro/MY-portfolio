@@ -3,6 +3,7 @@
     margin: 0%;
     color: white;
 }
+
 .element{
     position: absolute;
     font-size: 50px;
@@ -40,6 +41,11 @@
     animation: rotateWords 5s step-end infinite;
     color: #e6ff00;
     font-weight: bold;
+}
+
+.part2{
+    display: flex;
+    gap :110px;
 }
 
 @keyframes rotateWords {
@@ -197,6 +203,7 @@ body{
     color: white;
 }
 .what2{
+    padding-right: 50px;
     padding-left: 80px;
     padding-bottom: 150px;
     border-bottom: 1px whitesmoke solid;
@@ -260,4 +267,19 @@ footer{
 .footer{
     padding-left: 2%;
     display: flex;
+}
+
+@media(max-width:1335px){
+    .part2{
+        flex-direction: column;
+        gap: 0;
+        line-height: 60px;
+    }
+    .stack1{
+        gap: 10px;
+    }
+    .what2{
+        gap: 30px;
+    }
+
 }
