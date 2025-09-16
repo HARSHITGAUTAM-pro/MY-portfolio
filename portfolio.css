@@ -50,9 +50,8 @@
 
 @keyframes rotateWords {
     0%   { content: "Developer"; }
-    33%  { content: "Designer"; }
-    66%  { content: "Manager"; }
-    100% { content: "Developer"; }
+    50%  { content: "Designer"; }
+    100%  { content: "Programmer"; }
 }
 
 .slidermain{
@@ -244,6 +243,8 @@ footer{
     background-color: black;
     margin: auto;
     margin-bottom: 5%;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 .socialmedia{
     display: flex;
